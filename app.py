@@ -18,6 +18,21 @@ st.markdown("""
 h1, h2, h3 {
     color: #26345C;
 }
+/* Fix visibility of normal page text */
+.stApp p,
+.stApp li,
+.stApp label,
+.stApp [data-testid="stMarkdownContainer"] {
+    color: #26345C !important;
+}
+
+/* Fix headings */
+.stApp h1,
+.stApp h2,
+.stApp h3,
+.stApp h4 {
+    color: #26345C !important;
+}
 [data-testid="stSidebar"] {
     background-color: #202B4A;
 }
